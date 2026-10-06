@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+header {
+    background-color: #6eb85c;
+    color: white;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+article {
+    padding: 20px;
+    background-color: #bfe5b6;
+}
+
+aside {
+    padding: 20px;
+    background-color: #e8e8e8;
+}
+
+footer {
+    background-color: #6eb85c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
